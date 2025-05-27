@@ -2593,7 +2593,7 @@ ROOT_DIR = op.dirname(op.dirname(op.dirname(op.abspath(__file__))))
 def root_path(*path: str) -> str:
     return op.join(ROOT_DIR, *path)
 
-DATA_DIR = root_path(r"C:\Users\SG\OneDrive - IIT Kanpur\Documents\MATLAB Drive\Python\MuJoCo\example\ContactNets Cube")
+DATA_DIR = root_path(r"ContactNets Cube")
 OUT_DIR = root_path('ContactNets Cube\out')
 LIB_DIR = root_path('ContactNets Cube\lib')
 RESULTS_DIR = root_path('ContactNets Cube\results')
