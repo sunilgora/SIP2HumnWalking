@@ -1,5 +1,8 @@
 # SIP2HumnWalking
+![Kondo](simulation_video.gif)
+
 PD controller for walking of 22-DOF Humanoid Robot Using Spherical Inverted Pendulum in MuJoCo physics engine
+
 ## Python Packages 
 The Following packages are required to run the ```SIPlib``` library:
 
